@@ -3,10 +3,10 @@ import streamlit as st
 from model import predict_fitness  # Import the predict_fitness function from model.py
 
 # 💪 Main Title
-st.set_page_config(page_title="Fitness Level Predictor", page_icon="🏋️", layout="centered")
-st.title("🏋️‍♀️ Fitness Level Predictor")
+st.set_page_config(page_title="Personal Fitness Tracker", page_icon="🏋️", layout="centered")
+st.title("🏋️‍♀️ Personal Fitness Tracker")
 
-st.markdown("Welcome to your personal health check! Let’s predict your fitness level based on some quick inputs 💫")
+st.markdown("Welcome to your personal fitness assistant! Track and analyze your fitness level using smart predictions 🧠💥")
 
 # 🌟 Basic Inputs
 age = st.slider("Enter Age", min_value=1, max_value=100, value=25)
